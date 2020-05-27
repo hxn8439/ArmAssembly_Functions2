@@ -11,4 +11,7 @@ c. double dotpF64(const double x[], const double y[],uint32_t count)
 d. float maxF32(const float x[], uint32_t count)
 // returns the maximum value in the array (x) containing count entries
 
-Compile of source file is done on a Arm Raspberry Pi 3 b+ model.
+Arm Assembly Compile instructions on Raspberry Pi b+ model
+
+->gcc -o test hw4.c hw4.s 
+->./test
